@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="web.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -13,14 +19,16 @@
         <h2 class="between">(between 1 and 20)</h2>
       </header>
       <h1 class="guess">Guess My Number!</h1>
-      <p class="question">?</p>
+      <div class="rope"></div>
+      <p class="question">❓</p>
       <p class="line">.</p>
+      <h1 class="hit"></h1>
       <input type="number" class="add" />
       <button class="check">Check!</button>
       <div class="words">
         <h2 class="start">start guessing...</h2>
         <h2>🥉score: <span class="number">20</span></h2>
-        <h2>🎇Highscore: 0</h2>
+        <h2>🎇Highscore: <span class="hig">0</span></h2>
       </div>
     </div>
 
