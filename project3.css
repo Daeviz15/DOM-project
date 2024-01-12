@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.contain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top left, #781e75, #e05959);
+}
+.content {
+  width: 40%;
+  margin-left: -420px;
+  display: flex;
+  box-shadow: 10px 15px 20px #000000b4;
+  align-items:flex-end;
+  justify-content: space-around;
+  height: 50%;
+  padding-bottom: 70px;
+  background-image: linear-gradient(
+    to right,
+    rgba(250, 217, 223, 0.882) 0%,
+    rgba(253, 220, 225, 0.696) 50%,
+    rgba(250, 248, 248, 0.265) 50%,
+    rgba(250, 248, 248, 0.265) 100%
+
+
+  );
+
+
+
+}
+.content:hover{
+  box-shadow: 10px 20px 10px #000000b4;
+    
+}
+
+.box, .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    width: 110px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #e05981;
+}
+
+h2{
+ font-weight: 900;
+ color: #000;
+ font-size: 25px;
+margin-top: -3%;
+}
+.other{
+    width: 110px;
+    height: 45%;
+    display: grid;
+    align-items: center;
+    margin-left: -23.5%;
+}
+.game, .roll, .hold{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.roll{
+    margin-top: 80px;
+}
+.hold{
+    width: 80%;
+    height: 35px;
+    border-radius: 40px;
+    margin-left: 7px;
+margin-top: -55px;
+}
+.game{
+margin-top: -50px;
+
+}
+.dice{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: -30px;
+    margin-top: -20px;
+}
+
+.new{
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.roll1{
+font-size: 13px;
+margin-left: 1px;
+font-weight: 900;
+margin-top: 2px;
+
+}
+.current1, .current2{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 200;
+}
+.score--1, .score--0{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.player1, .player2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 33%;
+    margin-left: -22%;
+
+}
+.player2{
+    margin-left: 20%;
+}
+.playscore{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -70%;
+font-size: 60px;
+color: #ff0c49;
+}
+
+.hidden{
+    display: none;
+}
+.won{
+    margin-top: -10%;
+}

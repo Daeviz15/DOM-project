@@ -1,9 +1,8 @@
 * {
-  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Press Start 2P', system-ui;
+  font-family: "Press Start 2P", system-ui;
   font-weight: 900;
 }
 .container {
@@ -27,7 +26,6 @@ header {
   color: aliceblue;
   font-size: 20px;
 }
-
 
 .hit {
   position: absolute;
@@ -54,49 +52,39 @@ header {
   padding-top: 20px;
   border-radius: 50%;
 }
-.container:hover .question{
-    animation: ball 3s infinite ease-in-out;
-
-}
-.container:hover .rope{
+.container:hover .question {
   animation: ball 3s infinite ease-in-out;
-
 }
-
-
-
+.container:hover .rope {
+  animation: ball 3s infinite ease-in-out;
+}
 
 @keyframes ball {
-
-
-30%{
+  30% {
     background-color: yellow;
-    transform:  translateX(300px);
+    transform: translateX(300px);
     rotate: -30deg;
-}
-70%{
-  background-color: green;
-  transform:  translateX(-300px);
-  rotate: 30deg;
-}
-
-
-}
-
-@keyframes rope {
-  30%{
-    rotate: -20deg;
-    background-color: black;
-
+  }
+  70% {
+    background-color: green;
+    transform: translateX(-300px);
+    rotate: 30deg;
   }
 }
 
-.rope{
+@keyframes rope {
+  30% {
+    rotate: -20deg;
+    background-color: black;
+  }
+}
+
+.rope {
   position: absolute;
   width: 1px;
   height: 14%;
   top: 23%;
-  background-color:aliceblue;
+  background-color: aliceblue;
   margin-left: 49.3%;
 }
 
@@ -115,7 +103,7 @@ header {
   margin-top: 10%;
   font-size: 23px;
   width: 160px;
-  padding-left:  70px;
+  padding-left: 70px;
   outline: none;
   padding-right: 25px;
   color: #fff;

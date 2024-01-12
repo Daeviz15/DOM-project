@@ -20,7 +20,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guessvalue === secretnumber) {
     start.textContent = "🎉 Correct number!";
     question.textContent = secretnumber;
-    hit.textContent = "👈 You won, play again?"
+    hit.textContent = "👈 You won, play again?";
 
     score > highscore ? (highscore = score) : "none";
     hig.textContent = highscore;
@@ -34,12 +34,11 @@ document.querySelector(".check").addEventListener("click", function () {
     score--;
 
     number.textContent = score;
-  } 
-  
-  if(score === 0){
-  start.textContent = "👎 You lose "
-  document.querySelector(".container").style.backgroundColor = "red";
+  }
 
+  if (score === 0) {
+    start.textContent = "👎 You lose ";
+    document.querySelector(".container").style.backgroundColor = "red";
   }
 
   score === 0 && start.textContent === "👎 You lose "
@@ -55,8 +54,6 @@ document.querySelector(".again").addEventListener("click", function () {
   secretnumber = Math.trunc(Math.random() * 20 + 1);
   question.textContent = secretnumber;
   hit.textContent = "Now input a number😇";
-  question.textContent = '❓';
-    document.querySelector(".container").style.backgroundColor = " #000000de";
-    
-
+  question.textContent = "❓";
+  document.querySelector(".container").style.backgroundColor = " #000000de";
 });
